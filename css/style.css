@@ -29,3 +29,13 @@ input[type="submit"]{
 input[type="reset"]{
     background-color: red;
 }
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+}
+.img-container img{
+    max-width: 315px !important;
+    height: auto;
+}
